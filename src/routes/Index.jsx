@@ -9,7 +9,7 @@ const Index = () => {
         <>
          <Routes>
              <Route path="/" element={<Home/>}/>
-             <Route path="single/:id" element={<Single/>}/>
+             <Route path="/single" element={<Single/>}/>
              <Route path="/not-found" element={<NotFound/>}/>
              <Route path="*" element={<Navigate to="not-found"/>}/>
          </Routes>

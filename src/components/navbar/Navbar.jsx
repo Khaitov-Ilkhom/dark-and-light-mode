@@ -21,7 +21,7 @@ const Navbar = () => {
                         <img className="max-w-[120px]" src={state.theme === "light" ? light : dark} alt="Logo"/>
                     </Link>
                 </li>
-                <li className="text-2xl font-bold">Latest Updates</li>
+                <li className="text-2xl font-bold"><Link to="/single">Latest Updates</Link></li>
                 <li>
                     <Switch defaultChecked onChange={onChange}/>
                 </li>
