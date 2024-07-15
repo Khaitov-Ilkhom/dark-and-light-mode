@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+[data-theme] {
+    transition: 0.3s;
+}
+[data-theme="dark"] {
+    background: rgba(0, 0, 0, 0.79);
+    color: white;
+    min-height: 100vh;
+}
