@@ -10,7 +10,7 @@ import icon6 from "../../images/Group 4 (1).png"
 
 const Footer = () => {
 
-    const [state, dispatch] = useContext(AppContext)
+    const [state] = useContext(AppContext)
 
     return (
         <div className="w-full flex justify-around items-center">
